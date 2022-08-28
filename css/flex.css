@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    background: rgba(255, 0, 0, 0.153);
+    height: 300px;
+    /* justify-content: space-between;
+    align-items: center; */
+    gap: 10px;
+}
+
+.flex-item {
+    height: 100px;
+    width: 100px;
+    background: blue;
+    
+}
+
+/* .flex-item:not(:first-child) {
+    margin-left: 10px;
+}  */
+
+.first {
+    /* margin-left: 0; */
+}
+
+.align-bottom {
+    /* align-self: flex-end; */
+}
